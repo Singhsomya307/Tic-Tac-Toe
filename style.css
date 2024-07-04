@@ -1,0 +1,229 @@
+body, html {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #000000; /* optional background color for the page */
+}
+
+h1 { 
+	color: rgb(209, 196, 183); 
+	margin-bottom: -5px; 
+	font-size:80px;
+} 
+p { 
+	margin-bottom: -10px; 
+} 
+.ui { 
+	display: flex; 
+	flex-direction: column; 
+	align-items: center; 
+} 
+.row { 
+	display: flex; 
+}
+.cell { 
+	border: none; 
+	width: 80px; 
+	height: 80px; 
+	display: flex; 
+	align-items: center; 
+	justify-content: center; 
+	font-size: 24px; 
+	text-align: center; 
+	cursor: pointer; 
+} 
+.cell:active { 
+	outline: none; 
+} 
+
+
+
+/* 3*3 Grid */
+#b1{ 
+	border-bottom: 1px solid gray; 
+	border-right: 1px solid gray; 
+	border-radius: 12px; 
+	font-size: 30px;
+	color: #000000;
+	transition: background-color 0.3s, color 0.3s, transform 0.3s; /* transition properties */
+}
+#b1:hover {
+	background-color: rgb(47, 45, 45); /* change to desired hover background color */
+	color: rgb(237, 242, 247); /* change to desired hover text color */
+	transform: scale(1.05); /* slight zoom effect on hover */
+}
+
+ 
+
+#b2 { 
+	border-bottom: 1px solid gray; 
+	border-right: 1px solid gray; 
+	border-left: 1px solid gray; 
+	border-radius: 12px; 
+	font-size: 30px;
+	color: #000000;
+	transition: background-color 0.3s, color 0.3s, transform 0.3s; /* transition properties */
+}
+#b2:hover {
+	background-color: rgb(47, 45, 45); /* change to desired hover background color */
+	color: rgb(237, 242, 247); /* change to desired hover text color */
+	transform: scale(1.05); /* slight zoom effect on hover */
+}
+
+#b3 { 
+	border-bottom: 1px solid gray; 
+	border-left: 1px solid gray; 
+	border-radius: 12px; 
+	font-size: 30px;	
+	color: #000000;
+	transition: background-color 0.3s, color 0.3s, transform 0.3s; /* transition properties */
+}
+#b3:hover {
+	background-color: rgb(47, 45, 45); /* change to desired hover background color */
+	color: rgb(237, 242, 247); /* change to desired hover text color */
+	transform: scale(1.05); /* slight zoom effect on hover */
+}
+
+#b4 { 
+	border-top: 1px solid gray; 
+	border-bottom: 1px solid gray; 
+	border-right: 1px solid gray; 
+	border-radius: 12px; 
+	font-size: 30px;
+	color: #000000;
+	transition: background-color 0.3s, color 0.3s, transform 0.3s; /* transition properties */
+}
+#b4:hover {
+	background-color: rgb(47, 45, 45); /* change to desired hover background color */
+	color: rgb(237, 242, 247); /* change to desired hover text color */
+	transform: scale(1.05); /* slight zoom effect on hover */
+}
+	
+#b5 { 
+	border: 1px solid gray; 
+	border-radius: 12px; 
+	font-size: 30px;
+	color: #000000;
+	transition: background-color 0.3s, color 0.3s, transform 0.3s; /* transition properties */
+}
+#b5:hover {
+	background-color: rgb(47, 45, 45); /* change to desired hover background color */
+	color: rgb(237, 242, 247); /* change to desired hover text color */
+	transform: scale(1.05); /* slight zoom effect on hover */
+}
+
+#b6 { 
+	border-top: 1px solid gray; 
+	border-bottom: 1px solid gray; 
+	border-left: 1px solid gray; 
+	border-radius: 12px; 
+	font-size: 30px;
+	color: #000000;
+	transition: background-color 0.3s, color 0.3s, transform 0.3s; /* transition properties */
+}
+#b6:hover {
+	background-color: rgb(47, 45, 45); /* change to desired hover background color */
+	color: rgb(237, 242, 247); /* change to desired hover text color */
+	transform: scale(1.05); /* slight zoom effect on hover */
+}
+
+#b7 { 
+	border-top: 1px solid gray; 
+	border-right: 1px solid gray; 
+	border-radius: 12px; 
+	font-size: 30px;
+	color: #000000;
+	transition: background-color 0.3s, color 0.3s, transform 0.3s; /* transition properties */
+}
+#b7:hover {
+	background-color: rgb(47, 45, 45); /* change to desired hover background color */
+	color: rgb(237, 242, 247); /* change to desired hover text color */
+	transform: scale(1.05); /* slight zoom effect on hover */
+}
+
+#b8 { 
+	border-top: 1px solid gray; 
+	border-right: 1px solid gray; 
+	border-left: 1px solid gray; 
+	border-radius: 12px; 
+	font-size: 30px;
+	color: #000000;
+	transition: background-color 0.3s, color 0.3s, transform 0.3s; /* transition properties */
+}
+#b8:hover {
+	background-color: rgb(47, 45, 45); /* change to desired hover background color */
+	color: rgb(237, 242, 247); /* change to desired hover text color */
+	transform: scale(1.05); /* slight zoom effect on hover */
+} 
+
+#b9 { 
+	border-top: 1px solid gray; 
+	border-left: 1px solid gray; 
+	border-radius: 12px; 
+	font-size: 30px;
+	color: #000000;
+	transition: background-color 0.3s, color 0.3s, transform 0.3s; /* transition properties */
+}
+#b9:hover {
+	background-color: rgb(47, 45, 45); /* change to desired hover background color */
+	color: rgb(237, 242, 247); /* change to desired hover text color */
+	transform: scale(1.05); /* slight zoom effect on hover */
+}
+
+
+/* Reset Button */
+#but { 
+	box-sizing: border-box; 
+	width: 95px; 
+	height: 40px; 
+	border: 3px solid rgb(213, 215, 216); 
+	margin-left: auto; 
+	border-radius: 8px; 
+	font-family: Verdana, 
+		Geneva, Tahoma, sans-serif; 
+
+	background-color: rgb(218, 203, 203); 
+	color: rgb(11, 11, 11); 
+	font-size: 20px; 
+	font-weight: 1000;
+	cursor: pointer; 
+	transition: background-color 0.3s, color 0.3s, transform 0.3s; /* transition properties */
+}
+#but:hover {
+	background-color: rgb(14, 12, 12); /* change to desired hover background color */
+	color: rgb(237, 242, 247); /* change to desired hover text color */
+	transform: scale(1.05); /* slight zoom effect on hover */
+}
+
+/* Player turn space */
+#print { 
+	font-family: Verdana, 
+        Geneva, Tahoma, sans-serif; 
+    color: rgb(228, 230, 232); 
+    font-size: 20px;
+	border-radius: 8px; 
+	font-weight: 1000;
+	text-transform: capitalize;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	cursor: pointer;
+}
+
+/* Main Container */
+#main { 
+	text-align: center; 
+	
+} 
+
+/* Game Instruction Text */
+#ins { 
+	font-family: monospace; 
+	color: rgb(214, 202, 202); 
+	font-size: 15px;
+}
